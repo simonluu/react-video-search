@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import YTSearch from 'youtube-api-search';
 import { connect } from 'react-redux';
 
-import * as actions from '../actions/videosearch_action';
+import * as actions from '../actions/';
 
 import SearchBar from './video_search_bar';
 import VideoList from './video_list';

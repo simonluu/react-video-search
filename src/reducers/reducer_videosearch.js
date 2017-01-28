@@ -1,4 +1,4 @@
-import { FETCH_VIDEOS, SELECT_VIDEO } from '../actions/videosearch_action';
+import { FETCH_VIDEOS, SELECT_VIDEO } from '../actions/';
 
 const INITIAL_STATE = { videos: [], selectedVideo: null };
 

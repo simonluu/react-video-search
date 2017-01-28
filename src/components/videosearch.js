@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 import YTSearch from 'youtube-api-search';
 import { connect } from 'react-redux';
 
-import * as actions from './actions/videosearch_action';
+import * as actions from '../actions/videosearch_action';
 
-import SearchBar from './components/video_search_bar';
-import VideoList from './components/video_list';
-import VideoDetail from './components/video_detail';
+import SearchBar from './video_search_bar';
+import VideoList from './video_list';
+import VideoDetail from './video_detail';
 
 const API_KEY = 'AIzaSyD4Da33LjjRDBJgV4gmj631MhP0WV7RRJ4';
 

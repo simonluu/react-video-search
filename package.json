@@ -1,0 +1,45 @@
+{
+  "name": "reactvideosearch",
+  "version": "1.0.0",
+  "description": "A video searcher using React Redux",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "postinstall": "webpack -p",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonluu/react-video-search.git"
+  },
+  "author": "Simon Luu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simonluu/react-video-search/issues"
+  },
+  "homepage": "https://github.com/simonluu/react-video-search#readme",
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "chai": "^3.5.0",
+    "chai-jquery": "^2.0.0",
+    "jquery": "^3.1.1",
+    "jsdom": "^9.9.1",
+    "mocha": "^3.2.0",
+    "react-addons-test-utils": "^15.4.2",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "dependencies": {
+    "babel-preset-stage-1": "^6.22.0",
+    "lodash": "^4.17.4",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.2",
+    "react-router": "^3.0.2",
+    "redux": "^3.6.0",
+    "youtube-api-search": "0.0.5"
+  }
+}
